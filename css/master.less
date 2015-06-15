@@ -1,0 +1,34 @@
+.navbar-brand {
+	display:block;
+	color:@primary-color;
+	height:auto;
+	float:none;
+	text-align:center;
+	font-size:30px;
+	span{
+		display:block;
+		color:@text-color;
+		font-size:18px;
+		margin:10px 0 0;
+	}
+}
+
+nav.navbar {
+	border:solid 1px @border-color;
+}
+
+@media all and (max-width:768px){
+	.header-brand {
+		float:left;
+		position:relative;
+		z-index:1001;
+		.container{
+			width:auto;
+			.navbar-brand {
+				span{
+					display:none;
+				}
+			}
+		}
+	}		
+}

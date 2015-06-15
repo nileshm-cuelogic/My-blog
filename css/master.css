@@ -1,0 +1,7 @@
+@media all and (max-devie-width:768px){
+	.header-brand {
+		float:left;
+		position:relative;
+		z-index:1001;
+	}		
+}
